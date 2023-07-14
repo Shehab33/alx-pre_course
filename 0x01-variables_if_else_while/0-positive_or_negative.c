@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
 *Positive-Negative Proplem
 *Main function
 */
@@ -15,7 +15,7 @@ int main(void)
 	if (n > 0)
 	printf("%d is positive\n", n);
 	else
-	if(n < 0)
+	if (n < 0)
 	printf("%d is negative\n", n);
 	return (0);
 }	
