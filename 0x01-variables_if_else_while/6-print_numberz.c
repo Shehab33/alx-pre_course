@@ -2,19 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Printing Single numbers[0,1,...,9]
+ * main - Printing Single numbers[0,1,...,9] using putchar
  *
  * Return: 0 (success)
 */
 int main(void)
 {
+	char num[9] = "0123456789";
 	int i = 0;
 
 	while (i < 10)
 	{
-	printf("%d", i);
+	putchar(num[i]);
 	i++;
 	}
 	printf("\n");
 	return (0);
-}  
+}
