@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Printing 16 bit 0-f
+ * main - Printing 16 bit 0-f
  *
  * Return: 0 (success)
 */
