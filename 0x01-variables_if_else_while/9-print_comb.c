@@ -9,11 +9,15 @@
 int main(void)
 {
 	int i = 48;
+	int comma = 44;
+	int space = 32;
 
 	while (i < 58)
 	{
 	putchar(i);
 	i++;
+	putchar(comma);
+	putchar(space);
 	}
 	printf("\n");
 	return (0);
