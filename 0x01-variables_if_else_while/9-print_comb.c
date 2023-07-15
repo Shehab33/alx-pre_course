@@ -16,8 +16,11 @@ int main(void)
 	{
 	putchar(i);
 	i++;
+	if (i != 57)
+	{
 	putchar(comma);
 	putchar(space);
+	}
 	}
 	printf("\n");
 	return (0);

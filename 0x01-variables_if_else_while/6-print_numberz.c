@@ -10,10 +10,9 @@ int main(void)
 {
 	int i = 48;
 
-	while (i < 58)
+	for (i = 48; i < 58; i++)
 	{
 	putchar(i);
-	i++;
 	}
 	printf("\n");
 	return (0);
