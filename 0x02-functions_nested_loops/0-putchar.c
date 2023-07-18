@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <main.h>
 /**
- * main - print _pucahr
- *
+ * _putchar - is function that take char and print it with \n after it
+ * @c: the character which will print
  * Return: 0 (success)
  */
-int main(void)
+int _putchar(char c)
 {
 
-	printf("_putchar\n");
+	printf("c\n");
 	return (0);
 }
