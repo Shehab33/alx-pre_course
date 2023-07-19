@@ -1,3 +1,4 @@
+#include <ctype.h>
 /**
  * _islower - is Fn that take char and return 1 when it is lowercase
  * @c: the int argument of Fn _islower
