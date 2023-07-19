@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * main - void print small alphabet
  * Dsecription: a void Fn that prints alphabets and then prints newline
