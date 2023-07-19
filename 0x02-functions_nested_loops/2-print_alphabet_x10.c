@@ -7,9 +7,10 @@
 void print_alphabet_x10(void)
 {
 
-	int j = 0, i;
+	int j = 0;
+	int i;
 
-	While(j <= 9)
+	While(j <= 9);
 	{
 	int i = 97;
 
