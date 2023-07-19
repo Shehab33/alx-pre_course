@@ -1,12 +1,17 @@
 #include "main.h"
 /**
- * main - the man Fn
- *
- * Return: 0 (success)
+ * main - void print small alphabet
+ * Dsecription: a void Fn that prints alphabets and then prints newline
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
+	int i = 97;
 
-	print_alphabet();
-	return 0;
+	while (i <= 122)
+	{
+	_putchar(i);
+	i++;
+	}
+	_putchar('\n');
 }
