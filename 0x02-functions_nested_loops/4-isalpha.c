@@ -1,6 +1,6 @@
 #include <ctype.h>
 /**
- * _ialpha - is Fn that takes R-1  when it is lowercase or Uppercase
+ * _isalpha - is Fn that takes R-1  when it is lowercase or Uppercase
  * @c: the int argument of Fn _isalpha
  * Return: 1 (when char is lowercase or uppercase) otherwise 0
  */
