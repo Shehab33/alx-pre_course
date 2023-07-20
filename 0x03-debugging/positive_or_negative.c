@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
-* main - Positive-Negative Problem
-*
+* positive_or_negative  - Positive-Negative Problem
+*@i: the argument of Fn
 * Return: Always 0 (success)
 */
 void positive_or_negative(int i)
