@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _strcpy - Fn that copy string 
+ *_strcpy - Fn that copy string 
  * @dest: string that will value copied to
  * @src: string that will be copied to dest
  * Return: the value of the copied string include \0
@@ -16,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 	{
 	len++;
 	}
-	for( ; x<len; x++)
+	for( ; x < len; x++)
 	{
 	dest[x] = src[x];
 	}
