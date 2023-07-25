@@ -7,13 +7,19 @@
  */
 void puts_half(char *str)
 {
+	int n = 0;
 
 	while (*str != '\0')
 	{
-	if (*str % 2 != 0){
-	_putchar(*str);
+	n++;
+	str++;
 	}
-	++str;
+
+	printf("%d", n);
+
+	for (n = n-1/2;  str[n] != '\0'; n++)
+	{
+	_putchar(str[n]);
 	}
 	_putchar('\n');
 }
